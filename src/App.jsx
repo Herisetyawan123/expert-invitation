@@ -3,10 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import CoverPage from "./section/cover-page";
 import LeftPartial from "./partial/LeftPartial";
+import RightPartial from "./partial/RightPartial";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 1000 });
   }, []);
   // State untuk melacak apakah musik diputar atau dijeda
   const [isPlaying, setIsPlaying] = useState(false);
@@ -29,7 +30,9 @@ function App() {
       <div className="hidden lg:block lg:col-span-8 h-[100vh] w-full sticky top-0">
         <LeftPartial />
       </div>
-      <div className="col-span-12 sm:col-span-4 h-[200vh]"></div>
+      <div className="col-span-12 sm:col-span-4">
+        <RightPartial />
+      </div>
       <div className="fixed bottom-10 left-10">
         <button
           className="w-16 h-16 bg-[#423740] backdrop-blur rounded-full"

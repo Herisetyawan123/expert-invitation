@@ -27,7 +27,10 @@ function CoverPage() {
           </div>
 
           {/* date */}
-          <p className="font-['Playfair+Display'] text-sm md:text-lg mb-5 md:mb-10 md:mt-2 text-[#d7c1a0]">
+          <p
+            className="font-['Playfair+Display'] text-sm md:text-lg mb-5 md:mb-10 md:mt-2 text-[#d7c1a0]"
+            data-aos="fade-up"
+          >
             10 January 2024
           </p>
           <button
@@ -42,6 +45,7 @@ function CoverPage() {
           src={FrameCover}
           className="h-[80%] object-contain rounded-md"
           alt=""
+          // data-aos="fade-in"
         />
       </div>
       {/* <div className="w-[90%] sm:w-[80%]  md:w-[80%] lg:w-[50%]  flex justify-center items-center p-7 bg-[#fff] bg-[url('/bg-cover.png')] bg-contain sm:bg-inherit bg-no-repeat bg-center rounded-md">

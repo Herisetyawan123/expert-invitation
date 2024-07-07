@@ -30,7 +30,7 @@ function App() {
       <div className="hidden lg:block lg:col-span-8 h-[100vh] w-full sticky top-0">
         <LeftPartial />
       </div>
-      <div className="col-span-12 sm:col-span-4">
+      <div className="col-span-12 lg:col-span-4">
         <RightPartial />
       </div>
       <div className="fixed bottom-10 left-10">

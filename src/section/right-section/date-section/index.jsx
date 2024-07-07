@@ -2,7 +2,7 @@ import React from "react";
 
 function DateSection() {
   return (
-    <div className="py-10 bg-[#423740] bg-[url('/couple/pengantin.jpeg')] bg-center bg-fixed relative">
+    <div className="py-10 bg-[#423740] bg-[url('/wallpaper.png')] bg-center bg-fixed relative">
       <div className="absolute bg-black w-full h-full top-0 bg-opacity-45"></div>
       <div className="relative">
         <h1

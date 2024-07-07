@@ -4,6 +4,7 @@ import OpenSection from "../section/right-section/opening-section";
 import PengantinSection from "../section/right-section/pengantin-section";
 import DateSection from "../section/right-section/date-section";
 import GallerySection from "../section/right-section/galery-section";
+import WeddingGift from "../section/right-section/wedding-gift";
 
 function RightPartial() {
   return (
@@ -12,6 +13,7 @@ function RightPartial() {
       <PengantinSection />
       <DateSection />
       <GallerySection />
+      <WeddingGift />
     </div>
   );
 }

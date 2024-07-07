@@ -13,15 +13,21 @@ function GallerySection() {
       </div>
 
       <div className="grid grid-cols-12 grid-rows-4 gap-3 mt-10 px-5">
-        <div className="col-span-12 h-64 bg-slate-500"></div>
+        <div
+          data-aos="fade-up"
+          className="col-span-12 h-32 md:h-64 bg-slate-500"
+        ></div>
 
         {/* new row */}
-        <div className="col-span-6 row-span-2 bg-slate-500"></div>
-        <div className="col-span-6 bg-slate-500"></div>
-        <div className="col-span-6 bg-slate-500"></div>
-        <div className="col-span-4 bg-slate-500"></div>
-        <div className="col-span-4 bg-slate-500"></div>
-        <div className="col-span-4 bg-slate-500"></div>
+        <div
+          data-aos="fade-up"
+          className="col-span-6 row-span-2 bg-slate-500"
+        ></div>
+        <div data-aos="fade-up" className="col-span-6 bg-slate-500"></div>
+        <div data-aos="fade-up" className="col-span-6 bg-slate-500"></div>
+        <div data-aos="fade-up" className="col-span-4 bg-slate-500"></div>
+        <div data-aos="fade-up" className="col-span-4 bg-slate-500"></div>
+        <div data-aos="fade-up" className="col-span-4 bg-slate-500"></div>
 
         {/* <div className="col-span-4 h-40 bg-slate-500"></div> */}
       </div>

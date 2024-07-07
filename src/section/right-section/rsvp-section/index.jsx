@@ -12,7 +12,7 @@ function RsvpSection() {
         </p>
       </div>
 
-      <div className="p-20">
+      <div className="p-5 md:p-20">
         <div className="bg-white/30 backdrop-blur-md p-5">
           <form action="" className="space-y-5">
             <div className="form-group flex flex-col gap-2">

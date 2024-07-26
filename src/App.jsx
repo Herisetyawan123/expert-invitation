@@ -23,6 +23,13 @@ function App() {
     }
     setIsPlaying(!isPlaying);
   };
+
+  useEffect(() => {
+    // Memastikan audio mulai diputar saat komponen pertama kali dimount
+    audioRef.current.play();
+    setIsPlaying(true);
+  }, []);
+
   return (
     <main className="w-full grid grid-cols-12">
       <audio src="/sound.mp3" loop hidden ref={audioRef} />
